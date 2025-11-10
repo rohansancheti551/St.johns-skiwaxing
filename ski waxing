@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rohan's Ski Waxing & Tuning</title>
+<style>
+  /* Reset & base styles */
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #f2f5f8; color: #333; line-height: 1.6; }
+  a { text-decoration: none; color: inherit; }
+
+  /* Header */
+  header { background: linear-gradient(90deg, #1e3c72, #2a5298); color: white; padding: 30px 20px; text-align: center; }
+  header h1 { font-size: 2.5em; margin-bottom: 10px; }
+  nav a { margin: 0 15px; font-weight: bold; color: #fff; }
+
+  /* Hero Section */
+  .hero { text-align: center; padding: 80px 20px; background: #e0f0ff; }
+  .hero h2 { font-size: 2em; margin-bottom: 15px; }
+  .hero p { font-size: 1.2em; margin-bottom: 25px; }
+  .btn { background: #1e3c72; color: white; padding: 12px 25px; border-radius: 8px; font-weight: bold; transition: 0.3s; display: inline-block; }
+  .btn:hover { background: #2a5298; }
+
+  /* Pricing Section */
+  #pricing { padding: 60px 20px; max-width: 1000px; margin: auto; }
+  #pricing h2 { text-align: center; font-size: 2em; margin-bottom: 40px; }
+  .pricing-cards { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; }
+  .card { background: white; border-radius: 15px; padding: 30px 20px; width: 280px; text-align: center; box-shadow: 0 8px 20px rgba(0,0,0,0.1); transition: transform 0.3s; }
+  .card:hover { transform: translateY(-10px); }
+  .card h3 { font-size: 1.5em; margin-bottom: 15px; color: #1e3c72; }
+  .card p { margin: 10px 0; font-size: 1em; }
+  .price { font-size: 2em; font-weight: bold; margin: 15px 0; color: #2a5298; }
+  .card .btn { margin-top: 15px; }
+
+  /* How it works */
+  #how-it-works { background: #f7f9fc; padding: 60px 20px; }
+  #how-it-works h2 { text-align: center; font-size: 2em; margin-bottom: 40px; }
+  .steps { max-width: 800px; margin: auto; display: flex; flex-direction: column; gap: 20px; }
+  .step { background: white; padding: 20px; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.05); }
+
+  /* Contact Section */
+  #contact { padding: 60px 20px; max-width: 600px; margin: auto; text-align: center; }
+  #contact h2 { font-size: 2em; margin-bottom: 30px; }
+  #contact p { margin-bottom: 25px; font-size: 1.1em; }
+  #contact a { display: inline-block; background: #1e3c72; color: white; padding: 12px 25px; border-radius: 8px; font-weight: bold; transition: 0.3s; }
+  #contact a:hover { background: #2a5298; }
+
+  /* Footer */
+  footer { background: #333; color: white; text-align: center; padding: 25px 20px; margin-top: 50px; }
+
+  /* Responsive */
+  @media(max-width: 900px) { .pricing-cards { flex-direction: column; align-items: center; } }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Rohan's Ski Waxing & Tuning</h1>
+  <nav>
+    <a href="#pricing">Packages</a>
+    <a href="#how-it-works">How It Works</a>
+    <a href="#contact">Book Now</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>Keep Your Skis Fast & Smooth All Season!</h2>
+  <p>Professional waxing, polishing, and full tune-ups for recreational and race skiers.</p>
+  <a href="#contact" class="btn">Book Your Service</a>
+</section>
+
+<section id="pricing">
+  <h2>Our Packages</h2>
+  <div class="pricing-cards">
+    <div class="card">
+      <h3>Basic</h3>
+      <p>Hot wax application for smooth skiing</p>
+      <p class="price">$20</p>
+      <a href="mailto:rohansancheti551@gmail.com?subject=Book Basic Ski Wax" class="btn">Book Now</a>
+    </div>
+    <div class="card">
+      <h3>Pro</h3>
+      <p>Wax + polish for better glide and protection</p>
+      <p class="price">$35</p>
+      <a href="mailto:rohansancheti551@gmail.com?subject=Book Pro Ski Wax & Polish" class="btn">Book Now</a>
+    </div>
+    <div class="card">
+      <h3>Race</h3>
+      <p>Top-tier wax, 24-hour hold, clean tune-up & premium polish</p>
+      <p class="price">$75</p>
+      <a href="mailto:rohansancheti551@gmail.com?subject=Book Race Ski Service" class="btn">Book Now</a>
+    </div>
+  </div>
+</section>
+
+<section id="how-it-works">
+  <h2>How It Works</h2>
+  <div class="steps">
+    <div class="step">
+      <strong>Step 1:</strong> Choose your package and click "Book Now".
+    </div>
+    <div class="step">
+      <strong>Step 2:</strong> Send me a quick message with your details.
+    </div>
+    <div class="step">
+      <strong>Step 3:</strong> Drop off your skis or schedule a pickup (optional).
+    </div>
+    <div class="step">
+      <strong>Step 4:</strong> Get your skis tuned, waxed, and ready to hit the slopes!
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Book Your Service</h2>
+  <p>Click any "Book Now" button above or send me an email directly:</p>
+  <a href="mailto:rohansancheti551@gmail.com?subject=Book Ski Waxing Service">Email Rohan</a>
+</section>
+
+<footer>
+  <p>© 2025 Rohan's Ski Waxing & Tuning</p>
+</footer>
+
+</body>
+</html>
